@@ -13,6 +13,7 @@ from functools import wraps
 from flask import abort
 import os
 
+# https://kinjal-blogs.herokuapp.com/
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")
 # when running locally
